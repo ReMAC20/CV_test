@@ -1,0 +1,5 @@
+{
+  "model": "lcnet_100",
+  "temperature": 1.5,
+  "tta": true
+}

@@ -1,0 +1,22 @@
+{
+  "upstream": "PaddlePaddle/PaddleOCR",
+  "onnx_conversion": "RapidAI/RapidOCR",
+  "artifact_release": "v3.9.2",
+  "license": "Apache-2.0",
+  "input": {"color": "RGB", "shape": ["batch", 3, 80, 160], "resize": "direct bilinear", "mean": [0.485, 0.456, 0.406], "std": [0.229, 0.224, 0.225]},
+  "classes": ["0_degree", "180_degree"],
+  "output": "softmax probabilities",
+  "models": {
+    "lcnet_025.onnx": {
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/cls/ch_PP-LCNet_x0_25_textline_ori_cls_mobile.onnx",
+      "sha256": "54379ae5174d026780215fc748a7f31910dee36818e63d49e17dc598ecc82df7",
+      "bytes": 1018508
+    },
+    "lcnet_100.onnx": {
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/cls/ch_PP-LCNet_x1_0_textline_ori_cls_server.onnx",
+      "sha256": "7d3c02ef6c7da8ae08b4347cc7695b2081aae68c325d64375724ecf39c99e743",
+      "bytes": 6776876,
+      "onnx_initializer_values": 1685028
+    }
+  }
+}

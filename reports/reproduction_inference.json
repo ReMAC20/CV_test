@@ -1,0 +1,20 @@
+{
+  "rows": 20000,
+  "seconds": 219.17115000006743,
+  "images_per_second": 91.25288615766193,
+  "mean_p180": 0.5066445803666096,
+  "uncertain_fraction": 0.34395,
+  "config": {
+    "model": "lcnet_100",
+    "temperature": 1.5,
+    "tta": true
+  },
+  "batch_size": 64,
+  "threads": 4,
+  "python": "3.10.0",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "onnxruntime": "1.23.2",
+  "numpy": "2.2.6",
+  "submission_sha256": "376d4ce525b55b258ef0265335e892c2782b32a832e9858d7a512e895bfe8095",
+  "sample_sha256": "60f977337a780a64d588d1ee1051ea85b93ed6ffb7c577e7efdcf350b1a8ef88"
+}

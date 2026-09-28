@@ -1,0 +1,7 @@
+{
+  "original_sha256": "376d4ce525b55b258ef0265335e892c2782b32a832e9858d7a512e895bfe8095",
+  "reproduced_sha256": "376d4ce525b55b258ef0265335e892c2782b32a832e9858d7a512e895bfe8095",
+  "byte_identical": true,
+  "input_files_unchanged": true,
+  "tests_passed": 7
+}

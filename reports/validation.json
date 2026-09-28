@@ -1,0 +1,225 @@
+{
+  "seed_dev": 42,
+  "seed_holdout": 2026,
+  "dev_lines": 600,
+  "holdout_lines": 400,
+  "candidates": [
+    {
+      "model": "lcnet_025",
+      "temperature": 0.75,
+      "tta": false,
+      "brier": 0.15431778150478787,
+      "score": 0.8456822184952122,
+      "accuracy": 0.8175,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_025",
+      "temperature": 1.0,
+      "tta": false,
+      "brier": 0.14706335318986855,
+      "score": 0.8529366468101315,
+      "accuracy": 0.8175,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_025",
+      "temperature": 1.25,
+      "tta": false,
+      "brier": 0.14125532366296784,
+      "score": 0.8587446763370321,
+      "accuracy": 0.8175,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_025",
+      "temperature": 1.5,
+      "tta": false,
+      "brier": 0.1367842636546694,
+      "score": 0.8632157363453306,
+      "accuracy": 0.8175,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_025",
+      "temperature": 2.0,
+      "tta": false,
+      "brier": 0.13123955474417442,
+      "score": 0.8687604452558255,
+      "accuracy": 0.8175,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_025",
+      "temperature": 0.75,
+      "tta": true,
+      "brier": 0.10108414892915231,
+      "score": 0.8989158510708477,
+      "accuracy": 0.8683333333333333,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_025",
+      "temperature": 1.0,
+      "tta": true,
+      "brier": 0.09932588123247484,
+      "score": 0.9006741187675251,
+      "accuracy": 0.8683333333333333,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_025",
+      "temperature": 1.25,
+      "tta": true,
+      "brier": 0.09839799725782881,
+      "score": 0.9016020027421712,
+      "accuracy": 0.8683333333333333,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_025",
+      "temperature": 1.5,
+      "tta": true,
+      "brier": 0.09820924693120787,
+      "score": 0.9017907530687921,
+      "accuracy": 0.8683333333333333,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_025",
+      "temperature": 2.0,
+      "tta": true,
+      "brier": 0.09967804875271097,
+      "score": 0.9003219512472891,
+      "accuracy": 0.8683333333333333,
+      "dev_seconds": 1.3681667000055313,
+      "model_bytes": 1018508
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 0.75,
+      "tta": false,
+      "brier": 0.09598791984117057,
+      "score": 0.9040120801588294,
+      "accuracy": 0.8808333333333334,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 1.0,
+      "tta": false,
+      "brier": 0.0915313661241653,
+      "score": 0.9084686338758347,
+      "accuracy": 0.8808333333333334,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 1.25,
+      "tta": false,
+      "brier": 0.08829706180838995,
+      "score": 0.9117029381916101,
+      "accuracy": 0.8808333333333334,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 1.5,
+      "tta": false,
+      "brier": 0.08605158453186992,
+      "score": 0.9139484154681301,
+      "accuracy": 0.8808333333333334,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 2.0,
+      "tta": false,
+      "brier": 0.08385309727911168,
+      "score": 0.9161469027208883,
+      "accuracy": 0.8808333333333334,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 0.75,
+      "tta": true,
+      "brier": 0.06114583971884597,
+      "score": 0.938854160281154,
+      "accuracy": 0.9283333333333333,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 1.0,
+      "tta": true,
+      "brier": 0.059881349214569043,
+      "score": 0.940118650785431,
+      "accuracy": 0.9283333333333333,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 1.25,
+      "tta": true,
+      "brier": 0.059250092370545626,
+      "score": 0.9407499076294543,
+      "accuracy": 0.9283333333333333,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 1.5,
+      "tta": true,
+      "brier": 0.05912505054063452,
+      "score": 0.9408749494593655,
+      "accuracy": 0.9283333333333333,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    },
+    {
+      "model": "lcnet_100",
+      "temperature": 2.0,
+      "tta": true,
+      "brier": 0.06010495219905896,
+      "score": 0.939895047800941,
+      "accuracy": 0.9283333333333333,
+      "dev_seconds": 6.296760699944571,
+      "model_bytes": 6776876
+    }
+  ],
+  "selected": {
+    "model": "lcnet_100",
+    "temperature": 1.5,
+    "tta": true
+  },
+  "holdout": {
+    "brier": 0.06958483139341826,
+    "score": 0.9304151686065818,
+    "accuracy": 0.92
+  },
+  "holdout_raw_seconds": 4.218783400021493,
+  "caveat": "Synthetic domain only; not an estimate of hidden test performance.",
+  "fonts": {
+    "NotoSans.ttf": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+    "NotoSerif.ttf": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713",
+    "RobotoMono.ttf": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b"
+  }
+}
