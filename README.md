@@ -12,7 +12,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe predict.py
 ```
 
-Изображения должны лежать в `test/images/`, шаблон - в `sample_submission.csv`. В текущем проекте окружение уже установлено. На Linux/macOS используйте `.venv/bin/python`.
+Изображения должны лежать в `test/images/`, шаблон - в `sample_submission.csv`.
 
 ## Модель и веса
 
