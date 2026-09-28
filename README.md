@@ -4,7 +4,7 @@
 
 ## Запуск
 
-Python 3.10, команды из корня проекта (терминал VS Code):
+Python 3.10, команды из корня проекта (например терминал VS Code):
 
 ```powershell
 python -m venv .venv
